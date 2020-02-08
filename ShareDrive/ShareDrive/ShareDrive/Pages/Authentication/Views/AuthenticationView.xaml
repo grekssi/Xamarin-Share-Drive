@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentView xmlns="http://xamarin.com/schemas/2014/forms" 
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls="clr-namespace:ShareDrive.MasterFolder.CustomEntries"
+             xmlns:controls1="clr-namespace:ShareDrive.MasterFolder.CustomButtons"
+             mc:Ignorable="d"
+             x:Class="ShareDrive.Pages.Authentication.Views.AuthenticationView">
+    <ContentView.Resources>
+        <ResourceDictionary>
+            <Style x:Key="baseStyle"
+                   TargetType="View">
+            </Style>
+            <Style x:Key="blueSearchBarStyle"
+                   TargetType="SearchBar"
+                   BasedOn="{StaticResource baseStyle}">
+                <Setter Property="PlaceholderColor" Value="Blue"/>
+            </Style>
+            <Style x:Key="greenSearchBarStyle"
+                   TargetType="SearchBar">
+                <Setter Property="PlaceholderColor" Value="Green"/>
+            </Style>
+
+            <Color x:Key="LightGreenColor">#2FA999</Color>
+            <Color x:Key="BorderColor">#D8D8D8</Color>
+
+            <Style x:Key="LableStyle" TargetType="Label">
+                <Setter Property="TextColor" Value="#666666" />
+                <Setter Property="FontSize" Value="Large" />
+            </Style>
+            <Style x:Key="FrameStyle" TargetType="Frame">
+                <Setter Property="HasShadow" Value="False" />
+                <Setter Property="Padding" Value="0" />
+                <Setter Property="CornerRadius" Value="15" />
+                <Setter Property="BorderColor" Value="{StaticResource BorderColor}" />
+            </Style>
+            <Style x:Key="EntryStyle" TargetType="Entry">
+                <Setter Property="HeightRequest" Value="40"></Setter>
+                <Setter Property="Margin" Value="5,0,0,0"></Setter>
+            </Style>
+        </ResourceDictionary>
+    </ContentView.Resources>
+
+    <ContentView.Content>
+        <StackLayout>
+            <StackLayout Margin="20,0" HorizontalOptions="CenterAndExpand" VerticalOptions="CenterAndExpand">
+                <Label x:Name="nameLabel"
+                   Text="Username"
+                   TextColor="Black"
+                   FontSize="Large"
+                   IsVisible="False"
+                   Opacity="0"/>
+                <Frame x:Name="usernameFrame" Style="{StaticResource FrameStyle}" BorderColor="#000" IsVisible="False">
+                    <controls:CustomAuthenticationEntry x:Name="username"
+                                      Keyboard="Numeric"
+                                      Style="{StaticResource EntryStyle}"
+                                      WidthRequest="200"/>
+                </Frame>
+
+
+
+                <Label x:Name="passwordLabel" 
+                   Text="Password" 
+                   TextColor="Black" 
+                   FontSize="Large"
+                   IsVisible="False"
+                   Opacity="0"/>
+                <Frame x:Name="passwordFrame" Style="{StaticResource FrameStyle}" BorderColor="#000" IsVisible="False" Padding="0, 1, 0, 0">
+                    <controls:CustomAuthenticationEntry x:Name="password"
+                                      Keyboard="Numeric"
+                                      Style="{StaticResource EntryStyle}" 
+                                      WidthRequest="200"/>
+                </Frame>
+
+                <StackLayout WidthRequest="200">
+
+                    <controls1:CustomAuthenticationButton x:Name="logInButton" Clicked="AnimatedClick" Text="Log In"/>
+                    <controls1:CustomAuthenticationButton x:Name="registerButton" Clicked="AnimatedClick" Text="Register"/>
+                </StackLayout>
+
+                
+            </StackLayout>
+        </StackLayout>
+    </ContentView.Content>
+</ContentView>

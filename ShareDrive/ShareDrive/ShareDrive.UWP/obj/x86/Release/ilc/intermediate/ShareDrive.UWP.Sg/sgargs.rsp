@@ -1,0 +1,12 @@
+﻿/ref:"C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive.UWP\obj\x86\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\Users\a774510\.nuget\packages\runtime.win10-x86.microsoft.net.native.sharedlibrary\2.1.8\tools\SharedLibrary\ret\AnalysisILToc"
+/ref:"C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive.UWP\obj\x86\Release\ilc\intermediate\PreMergeILTransformed"
+/ref:"C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive.UWP\obj\x86\Release\ilc\in\\"
+/ref:"C:\Users\a774510\.nuget\packages\runtime.win10-x86.microsoft.net.native.compiler\2.1.8\tools\x86\ilc\lib\Private\\"
+/ref:"C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive.UWP\obj\x86\Release\ilc\in"
+/ref:"C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive.UWP\obj\x86\Release\ilc\in\WinMetadata"
+/ca:System.Private.CoreLib
+/cscpath:"C:\Users\a774510\.nuget\packages\microsoft.net.native.compiler\2.1.8\tools\csc"
+/out:"C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive.UWP\obj\x86\Release\ilc\intermediate\SgGenerated\\"
+/int:"C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive.UWP\obj\x86\Release\ilc\intermediate\ShareDrive.UWP.Sg"
+"@C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive.UWP\obj\x86\Release\ilc\intermediate\ShareDrive.UWP.Sg\ComputedSerializationInput.txt"

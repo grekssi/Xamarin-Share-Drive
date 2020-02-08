@@ -1,0 +1,14 @@
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\bin\Release\netstandard2.0\ShareDrive.deps.json
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\bin\Release\netstandard2.0\ShareDrive.dll
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\bin\Release\netstandard2.0\ref\ShareDrive.dll
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\bin\Release\netstandard2.0\ShareDrive.pdb
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\obj\Release\netstandard2.0\Pages\Authentication\Pages\LoginPage.xaml.g.cs
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\obj\Release\netstandard2.0\Pages\Authentication\Views\AuthenticationView.xaml.g.cs
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\obj\Release\netstandard2.0\ShareDrive.AssemblyInfoInputs.cache
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\obj\Release\netstandard2.0\ShareDrive.AssemblyInfo.cs
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\obj\Release\netstandard2.0\XamlC.stamp
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\obj\Release\netstandard2.0\ShareDrive.dll
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\obj\Release\netstandard2.0\ref\ShareDrive.dll
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive\obj\Release\netstandard2.0\ShareDrive.pdb

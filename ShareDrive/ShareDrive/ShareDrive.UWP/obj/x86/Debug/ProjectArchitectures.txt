@@ -1,0 +1,1 @@
+C:\Bedros\ShareDrive\ShareDrive\ShareDrive.UWP\ShareDrive.UWP.csproj;x86

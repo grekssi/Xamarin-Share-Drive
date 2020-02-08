@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             xmlns:controls1="clr-namespace:ShareDrive.MasterFolder.CustomButtons"
+             mc:Ignorable="d"
+             x:Class="ShareDrive.Pages.Authentication.Pages.LoginPage"
+             BackgroundImage="ic_brain.jpg">
+    <ContentPage.Resources>
+        <ResourceDictionary>
+            <Style x:Key="initialSLStyle" TargetType="StackLayout">
+                <Setter Property="Margin" Value="20, 0"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="VerticalOptions" Value="CenterAndExpand"/>
+            </Style>
+
+        </ResourceDictionary>
+    </ContentPage.Resources>
+
+    <ContentPage.Content>
+        <StackLayout x:Name="initialLoginPageLayout"
+                     Style="{StaticResource initialSLStyle}">
+            <Image x:Name="ImageInitial" Source="rsz_road-512.png" Opacity="0"/>
+            <StackLayout Orientation="Horizontal">
+                <controls1:CustomAuthenticationButton x:Name="submitButton" Text="Submit"
+                    Clicked="CustomAuthenticationButton_Clicked"
+                    IsVisible="False"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

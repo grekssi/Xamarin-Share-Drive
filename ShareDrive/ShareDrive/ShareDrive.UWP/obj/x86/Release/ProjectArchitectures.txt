@@ -1,0 +1,1 @@
+C:\myGithub\Xamarin-share-drive-application\ShareDrive\ShareDrive\ShareDrive.UWP\ShareDrive.UWP.csproj;x86
